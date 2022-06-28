@@ -1,0 +1,132 @@
+/* background */
+body{
+  background-image: url("../scv.jpg");
+  background-color: #FFC4C4;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #EF9F9F;
+  color: #fff;
+
+
+
+}
+@media screen(max-width: 1100px) {
+
+    background-image: url("../scv.jpg")
+    background-position: center ;
+    background-repeat: no-repeat;
+    height:100%;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #EF9F9F;
+    display: flex;
+    flex-direction: column;
+
+
+}
+main{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3.3rem;
+  font-weight: lighter;
+}
+.time{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 2.4rem;
+}
+.notify{
+font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 1.9rem;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.type{
+  font-size: 1.2rem;
+}
+navbar{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.4rem;
+}
+.navitem{
+  font-size: 0.8rem;
+}
+button{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+  border-radius: 4%;
+  padding: 0.5rem 1rem;
+  color:#fff;
+  background-color: #FF869E;
+}
+button:hover{
+  background-color: #F47C7C;
+
+}
+/* To Style the navbar section */
+.navitem{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+}
+.number{
+  font-family: 'Stick No Bills', sans-serif;
+}
+.navlist{
+  list-style: none;
+  margin-right: 2rem;
+
+}
+.navlist:first-child{
+  margin-right: auto;
+  margin-left: 1rem;
+}
+
+ /* to style our grid */
+ .time{
+   display: grid;
+   grid-template-columns: repeat(8,1fr);
+
+
+   padding: 0% 20% 2% 15%;
+   justify-self: center;
+
+
+ }
+
+ .middle {
+   width: 80%;
+ }
+ @media {max-width:900px){
+   .middle{
+     width: 100%;
+     text-align: left;
+   }
+
+ }
+
+ }
+
+ /* style the icons */
+ .footer{
+   text-align: center;
+}
+ .icon{
+   margin: 1px;
+ }
+ .icon:hover{
+   color: #F47C7C;
+ }
